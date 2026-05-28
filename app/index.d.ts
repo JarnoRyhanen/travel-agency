@@ -8,7 +8,7 @@ declare interface BaseUser {
 
 declare interface UserData extends BaseUser {
   itineraryCreated: number | string;
-  status: "user" | "admin";
+  status: 'user' | 'admin';
 }
 
 declare type User = BaseUser;
@@ -91,7 +91,7 @@ declare interface StatsCard {
 }
 
 declare interface TrendResult {
-  trend: "increment" | "decrement" | "no change";
+  trend: 'increment' | 'decrement' | 'no change';
   percentage: number;
 }
 

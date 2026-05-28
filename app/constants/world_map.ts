@@ -1,16 +1,16 @@
 ﻿export const world_map: object = {
-  type: "FeatureCollection",
-  crs: { type: "name", properties: { name: "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  type: 'FeatureCollection',
+  crs: { type: 'name', properties: { name: 'urn:ogc:def:crs:OGC:1.3:CRS84' } },
   features: [
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Afghanistan",
-        name: "Afghanistan",
-        continent: "Asia",
+        admin: 'Afghanistan',
+        name: 'Afghanistan',
+        continent: 'Asia',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [61.21081709172573, 35.650072333309218],
@@ -87,10 +87,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Angola", name: "Angola", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Angola', name: 'Angola', continent: 'Africa' },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -179,10 +179,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Albania", name: "Albania", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Albania', name: 'Albania', continent: 'Europe' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [20.590247430104906, 41.855404161133592],
@@ -212,14 +212,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "United Arab Emirates",
-        name: "United Arab Emirates",
-        continent: "Asia",
+        admin: 'United Arab Emirates',
+        name: 'United Arab Emirates',
+        continent: 'Asia',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [51.579518670463258, 24.245497137951102],
@@ -249,14 +249,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Argentina",
-        name: "Argentina",
-        continent: "South America",
+        admin: 'Argentina',
+        name: 'Argentina',
+        continent: 'South America',
       },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -391,10 +391,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Armenia", name: "Armenia", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Armenia', name: 'Armenia', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [43.582745802592726, 41.09214325618256],
@@ -422,14 +422,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "French Southern and Antarctic Lands",
-        name: "Fr. S. Antarctic Lands",
-        continent: "Seven seas (open ocean)",
+        admin: 'French Southern and Antarctic Lands',
+        name: 'Fr. S. Antarctic Lands',
+        continent: 'Seven seas (open ocean)',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [68.935, -48.625],
@@ -446,14 +446,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Australia",
-        name: "Australia",
-        continent: "Oceania",
+        admin: 'Australia',
+        name: 'Australia',
+        continent: 'Oceania',
       },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -708,10 +708,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Austria", name: "Austria", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Austria', name: 'Austria', continent: 'Europe' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [16.979666782304033, 48.123497015976298],
@@ -756,14 +756,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Azerbaijan",
-        name: "Azerbaijan",
-        continent: "Asia",
+        admin: 'Azerbaijan',
+        name: 'Azerbaijan',
+        continent: 'Asia',
       },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -821,10 +821,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Burundi", name: "Burundi", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Burundi', name: 'Burundi', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [29.339997592900342, -4.499983412294092],
@@ -845,10 +845,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Belgium", name: "Belgium", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Belgium', name: 'Belgium', continent: 'Europe' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [3.314971144228536, 51.345780951536071],
@@ -871,10 +871,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Benin", name: "Benin", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Benin', name: 'Benin', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [2.691701694356254, 6.258817246928628],
@@ -907,14 +907,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Burkina Faso",
-        name: "Burkina Faso",
-        continent: "Africa",
+        admin: 'Burkina Faso',
+        name: 'Burkina Faso',
+        continent: 'Africa',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-2.827496303712706, 9.642460842319775],
@@ -961,14 +961,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Bangladesh",
-        name: "Bangladesh",
-        continent: "Asia",
+        admin: 'Bangladesh',
+        name: 'Bangladesh',
+        continent: 'Asia',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [92.672720981825549, 22.041238918541247],
@@ -1012,10 +1012,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Bulgaria", name: "Bulgaria", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Bulgaria', name: 'Bulgaria', continent: 'Europe' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [22.657149692482985, 44.234923000661276],
@@ -1051,14 +1051,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "The Bahamas",
-        name: "Bahamas",
-        continent: "North America",
+        admin: 'The Bahamas',
+        name: 'Bahamas',
+        continent: 'North America',
       },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -1097,14 +1097,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Bosnia and Herzegovina",
-        name: "Bosnia and Herz.",
-        continent: "Europe",
+        admin: 'Bosnia and Herzegovina',
+        name: 'Bosnia and Herz.',
+        continent: 'Europe',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [19.005486281010118, 44.860233669609144],
@@ -1134,10 +1134,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Belarus", name: "Belarus", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Belarus', name: 'Belarus', continent: 'Europe' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [23.484127638449841, 53.912497667041123],
@@ -1189,14 +1189,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Belize",
-        name: "Belize",
-        continent: "North America",
+        admin: 'Belize',
+        name: 'Belize',
+        continent: 'North America',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-89.143080410503302, 17.808318996649316],
@@ -1224,14 +1224,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Bolivia",
-        name: "Bolivia",
-        continent: "South America",
+        admin: 'Bolivia',
+        name: 'Bolivia',
+        continent: 'South America',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-62.84646847192154, -22.034985446869442],
@@ -1299,14 +1299,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Brazil",
-        name: "Brazil",
-        continent: "South America",
+        admin: 'Brazil',
+        name: 'Brazil',
+        continent: 'South America',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-57.625133429582945, -30.216294854454258],
@@ -1517,10 +1517,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Brunei", name: "Brunei", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Brunei', name: 'Brunei', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [114.204016554828343, 4.525873928236805],
@@ -1536,10 +1536,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Bhutan", name: "Bhutan", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Bhutan', name: 'Bhutan', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [91.69665652869665, 27.771741848251661],
@@ -1560,10 +1560,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Botswana", name: "Botswana", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Botswana', name: 'Botswana', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [25.649163445750155, -18.536025892818987],
@@ -1611,14 +1611,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Central African Republic",
-        name: "Central African Rep.",
-        continent: "Africa",
+        admin: 'Central African Republic',
+        name: 'Central African Rep.',
+        continent: 'Africa',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [15.279460483469107, 7.421924546737968],
@@ -1688,14 +1688,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Canada",
-        name: "Canada",
-        continent: "North America",
+        admin: 'Canada',
+        name: 'Canada',
+        continent: 'North America',
       },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -2613,14 +2613,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Switzerland",
-        name: "Switzerland",
-        continent: "Europe",
+        admin: 'Switzerland',
+        name: 'Switzerland',
+        continent: 'Europe',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [9.594226108446346, 47.525058091820256],
@@ -2652,10 +2652,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Chile", name: "Chile", continent: "South America" },
+      type: 'Feature',
+      properties: { admin: 'Chile', name: 'Chile', continent: 'South America' },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -2783,10 +2783,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "China", name: "China", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'China', name: 'China', continent: 'Asia' },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -3040,14 +3040,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Ivory Coast",
+        admin: 'Ivory Coast',
         name: "Côte d'Ivoire",
-        continent: "Africa",
+        continent: 'Africa',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-2.856125047202397, 4.994475816259508],
@@ -3101,10 +3101,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Cameroon", name: "Cameroon", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Cameroon', name: 'Cameroon', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [13.07582238124675, 2.267097072759014],
@@ -3173,14 +3173,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Democratic Republic of the Congo",
-        name: "Dem. Rep. Congo",
-        continent: "Africa",
+        admin: 'Democratic Republic of the Congo',
+        name: 'Dem. Rep. Congo',
+        continent: 'Africa',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [30.833859897593801, 3.50916596111034],
@@ -3310,14 +3310,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Republic of Congo",
-        name: "Congo",
-        continent: "Africa",
+        admin: 'Republic of Congo',
+        name: 'Congo',
+        continent: 'Africa',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [12.995517205465173, -4.781103203961883],
@@ -3374,14 +3374,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Colombia",
-        name: "Colombia",
-        continent: "South America",
+        admin: 'Colombia',
+        name: 'Colombia',
+        continent: 'South America',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-75.373223232713841, -0.15203175212045],
@@ -3489,14 +3489,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Costa Rica",
-        name: "Costa Rica",
-        continent: "North America",
+        admin: 'Costa Rica',
+        name: 'Costa Rica',
+        continent: 'North America',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-82.965783047197348, 8.225027980985983],
@@ -3540,10 +3540,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Cuba", name: "Cuba", continent: "North America" },
+      type: 'Feature',
+      properties: { admin: 'Cuba', name: 'Cuba', continent: 'North America' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-82.268151211257035, 23.188610744717703],
@@ -3593,14 +3593,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Northern Cyprus",
-        name: "N. Cyprus",
-        continent: "Asia",
+        admin: 'Northern Cyprus',
+        name: 'N. Cyprus',
+        continent: 'Asia',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [32.731780226377445, 35.14002594658843],
@@ -3624,10 +3624,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Cyprus", name: "Cyprus", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Cyprus', name: 'Cyprus', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [33.973616570783456, 35.058506374647997],
@@ -3650,14 +3650,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Czech Republic",
-        name: "Czech Rep.",
-        continent: "Europe",
+        admin: 'Czech Republic',
+        name: 'Czech Rep.',
+        continent: 'Europe',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [16.960288120194573, 48.596982326850593],
@@ -3700,10 +3700,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Germany", name: "Germany", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Germany', name: 'Germany', continent: 'Europe' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [9.92190636560923, 54.983104153048025],
@@ -3769,10 +3769,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Djibouti", name: "Djibouti", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Djibouti', name: 'Djibouti', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [43.081226027200152, 12.699638576707112],
@@ -3795,10 +3795,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Denmark", name: "Denmark", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Denmark', name: 'Denmark', continent: 'Europe' },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -3836,14 +3836,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Dominican Republic",
-        name: "Dominican Rep.",
-        continent: "North America",
+        admin: 'Dominican Republic',
+        name: 'Dominican Rep.',
+        continent: 'North America',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-71.71236141629295, 19.714455878167353],
@@ -3877,10 +3877,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Algeria", name: "Algeria", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Algeria', name: 'Algeria', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [11.99950564947161, 23.471668402596443],
@@ -3950,14 +3950,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Ecuador",
-        name: "Ecuador",
-        continent: "South America",
+        admin: 'Ecuador',
+        name: 'Ecuador',
+        continent: 'South America',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-80.302560594387188, -3.404856459164712],
@@ -3998,10 +3998,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Egypt", name: "Egypt", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Egypt', name: 'Egypt', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [34.9226, 29.50133],
@@ -4051,10 +4051,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Eritrea", name: "Eritrea", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Eritrea', name: 'Eritrea', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [42.351560000000106, 12.54223000000013],
@@ -4090,10 +4090,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Spain", name: "Spain", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Spain', name: 'Spain', continent: 'Europe' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-9.034817674180244, 41.880570583659669],
@@ -4152,10 +4152,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Estonia", name: "Estonia", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Estonia', name: 'Estonia', continent: 'Europe' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [24.312862583114615, 57.793423570376966],
@@ -4180,10 +4180,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Ethiopia", name: "Ethiopia", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Ethiopia', name: 'Ethiopia', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [37.90607, 14.959430000000165],
@@ -4250,10 +4250,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Finland", name: "Finland", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Finland', name: 'Finland', continent: 'Europe' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [28.591929559043187, 69.064776923286644],
@@ -4299,10 +4299,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Fiji", name: "Fiji", continent: "Oceania" },
+      type: 'Feature',
+      properties: { admin: 'Fiji', name: 'Fiji', continent: 'Oceania' },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -4342,14 +4342,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Falkland Islands",
-        name: "Falkland Is.",
-        continent: "South America",
+        admin: 'Falkland Islands',
+        name: 'Falkland Is.',
+        continent: 'South America',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-61.2, -51.85],
@@ -4367,10 +4367,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "France", name: "France", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'France', name: 'France', continent: 'Europe' },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -4462,10 +4462,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Gabon", name: "Gabon", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Gabon', name: 'Gabon', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [11.093772820691923, -3.978826592630546],
@@ -4504,14 +4504,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "United Kingdom",
-        name: "United Kingdom",
-        continent: "Europe",
+        admin: 'United Kingdom',
+        name: 'United Kingdom',
+        continent: 'Europe',
       },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -4581,10 +4581,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Georgia", name: "Georgia", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Georgia', name: 'Georgia', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [41.55408410011065, 41.535656236327561],
@@ -4616,10 +4616,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Ghana", name: "Ghana", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Ghana', name: 'Ghana', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [1.060121697604927, 5.928837388528875],
@@ -4652,10 +4652,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Guinea", name: "Guinea", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Guinea', name: 'Guinea', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-8.439298468448696, 7.686042792181736],
@@ -4733,10 +4733,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Gambia", name: "Gambia", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Gambia', name: 'Gambia', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-16.84152462408127, 13.151393947802557],
@@ -4760,14 +4760,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Guinea Bissau",
-        name: "Guinea-Bissau",
-        continent: "Africa",
+        admin: 'Guinea Bissau',
+        name: 'Guinea-Bissau',
+        continent: 'Africa',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-15.130311245168167, 11.040411688679525],
@@ -4794,14 +4794,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Equatorial Guinea",
-        name: "Eq. Guinea",
-        continent: "Africa",
+        admin: 'Equatorial Guinea',
+        name: 'Eq. Guinea',
+        continent: 'Africa',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [9.492888624721981, 1.010119533691494],
@@ -4816,10 +4816,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Greece", name: "Greece", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Greece', name: 'Greece', continent: 'Europe' },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -4887,14 +4887,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Greenland",
-        name: "Greenland",
-        continent: "North America",
+        admin: 'Greenland',
+        name: 'Greenland',
+        continent: 'North America',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-46.76379, 82.62796],
@@ -5034,14 +5034,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Guatemala",
-        name: "Guatemala",
-        continent: "North America",
+        admin: 'Guatemala',
+        name: 'Guatemala',
+        continent: 'North America',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-90.095554572290951, 13.73533763270073],
@@ -5084,14 +5084,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Guyana",
-        name: "Guyana",
-        continent: "South America",
+        admin: 'Guyana',
+        name: 'Guyana',
+        continent: 'South America',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-59.758284878159181, 8.367034816924045],
@@ -5139,14 +5139,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Honduras",
-        name: "Honduras",
-        continent: "North America",
+        admin: 'Honduras',
+        name: 'Honduras',
+        continent: 'North America',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-87.316654425795463, 12.984685777229],
@@ -5211,10 +5211,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Croatia", name: "Croatia", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Croatia', name: 'Croatia', continent: 'Europe' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [18.829838087650039, 45.908877671891837],
@@ -5264,10 +5264,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Haiti", name: "Haiti", continent: "North America" },
+      type: 'Feature',
+      properties: { admin: 'Haiti', name: 'Haiti', continent: 'North America' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-73.189790615517595, 19.915683905511909],
@@ -5296,10 +5296,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Hungary", name: "Hungary", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Hungary', name: 'Hungary', continent: 'Europe' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [16.202298211337361, 46.852385972676949],
@@ -5338,10 +5338,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Indonesia", name: "Indonesia", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Indonesia', name: 'Indonesia', continent: 'Asia' },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -5649,10 +5649,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "India", name: "India", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'India', name: 'India', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [77.837450799474553, 35.494009507787759],
@@ -5796,10 +5796,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Ireland", name: "Ireland", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Ireland', name: 'Ireland', continent: 'Europe' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-6.197884894220989, 53.86756500916335],
@@ -5820,10 +5820,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Iran", name: "Iran", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Iran', name: 'Iran', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [53.921597934795543, 37.198918361961255],
@@ -5906,10 +5906,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Iraq", name: "Iraq", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Iraq', name: 'Iraq', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [45.420618117053202, 35.977545884742817],
@@ -5947,10 +5947,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Iceland", name: "Iceland", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Iceland', name: 'Iceland', continent: 'Europe' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-14.508695441129232, 66.455892239031414],
@@ -5978,10 +5978,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Israel", name: "Israel", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Israel', name: 'Israel', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [35.719918247222743, 32.709192409794859],
@@ -6012,10 +6012,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Italy", name: "Italy", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Italy', name: 'Italy', continent: 'Europe' },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -6120,14 +6120,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Jamaica",
-        name: "Jamaica",
-        continent: "North America",
+        admin: 'Jamaica',
+        name: 'Jamaica',
+        continent: 'North America',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-77.569600796199197, 18.490525417550483],
@@ -6146,10 +6146,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Jordan", name: "Jordan", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Jordan', name: 'Jordan', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [35.545665317534535, 32.393992011030569],
@@ -6176,10 +6176,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Japan", name: "Japan", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Japan', name: 'Japan', continent: 'Asia' },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -6262,14 +6262,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Kazakhstan",
-        name: "Kazakhstan",
-        continent: "Asia",
+        admin: 'Kazakhstan',
+        name: 'Kazakhstan',
+        continent: 'Asia',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [70.962314894499272, 42.26615428320553],
@@ -6389,10 +6389,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Kenya", name: "Kenya", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Kenya', name: 'Kenya', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [40.993, -0.85829],
@@ -6437,14 +6437,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Kyrgyzstan",
-        name: "Kyrgyzstan",
-        continent: "Asia",
+        admin: 'Kyrgyzstan',
+        name: 'Kyrgyzstan',
+        continent: 'Asia',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [70.96231489449913, 42.266154283205481],
@@ -6487,10 +6487,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Cambodia", name: "Cambodia", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Cambodia', name: 'Cambodia', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [103.497279901139677, 10.632555446815926],
@@ -6515,10 +6515,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "South Korea", name: "Korea", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'South Korea', name: 'Korea', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [128.349716424676586, 38.612242946927843],
@@ -6545,10 +6545,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Kosovo", name: "Kosovo", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Kosovo', name: 'Kosovo', continent: 'Europe' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [20.76216, 42.05186],
@@ -6577,10 +6577,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Kuwait", name: "Kuwait", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Kuwait', name: 'Kuwait', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [47.974519077349889, 29.975819200148493],
@@ -6597,10 +6597,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Laos", name: "Lao PDR", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Laos', name: 'Lao PDR', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [105.218776890078871, 14.27321177821069],
@@ -6645,10 +6645,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Lebanon", name: "Lebanon", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Lebanon', name: 'Lebanon', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [35.821100701650231, 33.277426459276292],
@@ -6667,10 +6667,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Liberia", name: "Liberia", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Liberia', name: 'Liberia', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-7.712159389669749, 4.364565944837721],
@@ -6705,10 +6705,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Libya", name: "Libya", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Libya', name: 'Libya', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [14.8513, 22.862950000000119],
@@ -6772,10 +6772,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Sri Lanka", name: "Sri Lanka", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Sri Lanka', name: 'Sri Lanka', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [81.787959018891371, 7.523055324733162],
@@ -6793,10 +6793,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Lesotho", name: "Lesotho", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Lesotho', name: 'Lesotho', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [28.978262566857236, -28.955596612261708],
@@ -6816,14 +6816,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Lithuania",
-        name: "Lithuania",
-        continent: "Europe",
+        admin: 'Lithuania',
+        name: 'Lithuania',
+        continent: 'Europe',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [22.731098667092649, 54.327536932993311],
@@ -6850,14 +6850,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Luxembourg",
-        name: "Luxembourg",
-        continent: "Europe",
+        admin: 'Luxembourg',
+        name: 'Luxembourg',
+        continent: 'Europe',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [6.043073357781109, 50.128051662794221],
@@ -6872,10 +6872,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Latvia", name: "Latvia", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Latvia', name: 'Latvia', continent: 'Europe' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [21.05580040862241, 56.031076361711051],
@@ -6905,10 +6905,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Morocco", name: "Morocco", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Morocco', name: 'Morocco', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-5.193863491222031, 35.755182196590845],
@@ -6980,10 +6980,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Moldova", name: "Moldova", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Moldova', name: 'Moldova', continent: 'Europe' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [26.619336785597788, 48.220726223333457],
@@ -7018,14 +7018,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Madagascar",
-        name: "Madagascar",
-        continent: "Africa",
+        admin: 'Madagascar',
+        name: 'Madagascar',
+        continent: 'Africa',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [49.543518914595737, -12.469832858940553],
@@ -7082,14 +7082,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Mexico",
-        name: "Mexico",
-        continent: "North America",
+        admin: 'Mexico',
+        name: 'Mexico',
+        continent: 'North America',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-97.140008307670684, 25.869997463478395],
@@ -7267,14 +7267,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Macedonia",
-        name: "Macedonia",
-        continent: "Europe",
+        admin: 'Macedonia',
+        name: 'Macedonia',
+        continent: 'Europe',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [20.59023, 41.85541],
@@ -7299,10 +7299,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Mali", name: "Mali", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Mali', name: 'Mali', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-12.170750291380299, 14.616834214735503],
@@ -7386,10 +7386,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Myanmar", name: "Myanmar", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Myanmar', name: 'Myanmar', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [99.543309360759281, 20.186597601802056],
@@ -7467,14 +7467,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Montenegro",
-        name: "Montenegro",
-        continent: "Europe",
+        admin: 'Montenegro',
+        name: 'Montenegro',
+        continent: 'Europe',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [19.801613396898681, 42.500093492190835],
@@ -7500,10 +7500,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Mongolia", name: "Mongolia", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Mongolia', name: 'Mongolia', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [87.751264276076697, 49.297197984405479],
@@ -7586,14 +7586,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Mozambique",
-        name: "Mozambique",
-        continent: "Africa",
+        admin: 'Mozambique',
+        name: 'Mozambique',
+        continent: 'Africa',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [34.559989047999345, -11.520020033415923],
@@ -7678,14 +7678,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Mauritania",
-        name: "Mauritania",
-        continent: "Africa",
+        admin: 'Mauritania',
+        name: 'Mauritania',
+        continent: 'Africa',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-12.170750291380299, 14.616834214735503],
@@ -7732,10 +7732,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Malawi", name: "Malawi", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Malawi', name: 'Malawi', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [34.559989047999345, -11.520020033415923],
@@ -7771,10 +7771,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Malaysia", name: "Malaysia", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Malaysia', name: 'Malaysia', continent: 'Asia' },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -7850,10 +7850,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Namibia", name: "Namibia", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Namibia', name: 'Namibia', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [16.344976840895239, -28.576705010697697],
@@ -7905,14 +7905,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "New Caledonia",
-        name: "New Caledonia",
-        continent: "Oceania",
+        admin: 'New Caledonia',
+        name: 'New Caledonia',
+        continent: 'Oceania',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [165.779989862326346, -21.080004978115621],
@@ -7933,10 +7933,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Niger", name: "Niger", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Niger', name: 'Niger', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [2.154473504249949, 11.940150051313422],
@@ -8002,10 +8002,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Nigeria", name: "Nigeria", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Nigeria', name: 'Nigeria', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [8.500287713259693, 4.771982937026847],
@@ -8071,14 +8071,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Nicaragua",
-        name: "Nicaragua",
-        continent: "North America",
+        admin: 'Nicaragua',
+        name: 'Nicaragua',
+        continent: 'North America',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-85.712540452807289, 11.088444932494822],
@@ -8138,14 +8138,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Netherlands",
-        name: "Netherlands",
-        continent: "Europe",
+        admin: 'Netherlands',
+        name: 'Netherlands',
+        continent: 'Europe',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [6.074182570020922, 53.51040334737813],
@@ -8167,10 +8167,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Norway", name: "Norway", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Norway', name: 'Norway', continent: 'Europe' },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -8280,10 +8280,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Nepal", name: "Nepal", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Nepal', name: 'Nepal', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [88.120440708369841, 27.876541652939586],
@@ -8314,14 +8314,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "New Zealand",
-        name: "New Zealand",
-        continent: "Oceania",
+        admin: 'New Zealand',
+        name: 'New Zealand',
+        continent: 'Oceania',
       },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -8401,10 +8401,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Oman", name: "Oman", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Oman', name: 'Oman', continent: 'Asia' },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -8465,10 +8465,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Pakistan", name: "Pakistan", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Pakistan', name: 'Pakistan', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [75.158027785140902, 37.13303091078911],
@@ -8542,14 +8542,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Panama",
-        name: "Panama",
-        continent: "North America",
+        admin: 'Panama',
+        name: 'Panama',
+        continent: 'North America',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-77.881571417945239, 7.223771267114783],
@@ -8609,10 +8609,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Peru", name: "Peru", continent: "South America" },
+      type: 'Feature',
+      properties: { admin: 'Peru', name: 'Peru', continent: 'South America' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-69.590423753524036, -17.580011895419329],
@@ -8696,14 +8696,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Philippines",
-        name: "Philippines",
-        continent: "Asia",
+        admin: 'Philippines',
+        name: 'Philippines',
+        continent: 'Asia',
       },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -8847,14 +8847,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Papua New Guinea",
-        name: "Papua New Guinea",
-        continent: "Oceania",
+        admin: 'Papua New Guinea',
+        name: 'Papua New Guinea',
+        continent: 'Oceania',
       },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -8957,10 +8957,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Poland", name: "Poland", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Poland', name: 'Poland', continent: 'Europe' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [15.016995883858666, 51.106674099321566],
@@ -9013,14 +9013,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Puerto Rico",
-        name: "Puerto Rico",
-        continent: "North America",
+        admin: 'Puerto Rico',
+        name: 'Puerto Rico',
+        continent: 'North America',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-66.2824344550082, 18.51476166429536],
@@ -9037,14 +9037,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "North Korea",
-        name: "Dem. Rep. Korea",
-        continent: "Asia",
+        admin: 'North Korea',
+        name: 'Dem. Rep. Korea',
+        continent: 'Asia',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [130.640015903852401, 42.39500946712527],
@@ -9095,10 +9095,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Portugal", name: "Portugal", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Portugal', name: 'Portugal', continent: 'Europe' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-9.034817674180244, 41.880570583659669],
@@ -9139,14 +9139,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Paraguay",
-        name: "Paraguay",
-        continent: "South America",
+        admin: 'Paraguay',
+        name: 'Paraguay',
+        continent: 'South America',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-62.685057135657871, -22.24902922942238],
@@ -9187,10 +9187,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Palestine", name: "Palestine", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Palestine', name: 'Palestine', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [35.545665317534535, 32.393992011030569],
@@ -9207,10 +9207,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Qatar", name: "Qatar", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Qatar', name: 'Qatar', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [50.810108270069563, 24.754742539971371],
@@ -9227,10 +9227,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Romania", name: "Romania", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Romania', name: 'Romania', continent: 'Europe' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [22.710531447040488, 47.882193915389394],
@@ -9282,10 +9282,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Russia", name: "Russia", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Russia', name: 'Russia', continent: 'Europe' },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -9901,10 +9901,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Rwanda", name: "Rwanda", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Rwanda', name: 'Rwanda', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [30.419104852019235, -1.134659112150416],
@@ -9925,14 +9925,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Western Sahara",
-        name: "W. Sahara",
-        continent: "Africa",
+        admin: 'Western Sahara',
+        name: 'W. Sahara',
+        continent: 'Africa',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-8.794883999049075, 27.120696316022503],
@@ -9968,14 +9968,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Saudi Arabia",
-        name: "Saudi Arabia",
-        continent: "Asia",
+        admin: 'Saudi Arabia',
+        name: 'Saudi Arabia',
+        continent: 'Asia',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [42.779332309750963, 16.34789134364868],
@@ -10059,10 +10059,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Sudan", name: "Sudan", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Sudan', name: 'Sudan', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [33.963392794971178, 9.464285229420623],
@@ -10149,14 +10149,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "South Sudan",
-        name: "S. Sudan",
-        continent: "Africa",
+        admin: 'South Sudan',
+        name: 'S. Sudan',
+        continent: 'Africa',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [33.963392794971178, 9.464285229420623],
@@ -10227,10 +10227,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Senegal", name: "Senegal", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Senegal', name: 'Senegal', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-16.713728807023468, 13.594958604379853],
@@ -10282,14 +10282,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Solomon Islands",
-        name: "Solomon Is.",
-        continent: "Oceania",
+        admin: 'Solomon Islands',
+        name: 'Solomon Is.',
+        continent: 'Oceania',
       },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -10352,14 +10352,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Sierra Leone",
-        name: "Sierra Leone",
-        continent: "Africa",
+        admin: 'Sierra Leone',
+        name: 'Sierra Leone',
+        continent: 'Africa',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-11.438779466182053, 6.785916856305746],
@@ -10389,14 +10389,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "El Salvador",
-        name: "El Salvador",
-        continent: "North America",
+        admin: 'El Salvador',
+        name: 'El Salvador',
+        continent: 'North America',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-87.793111131526558, 13.384480495655051],
@@ -10424,14 +10424,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Somaliland",
-        name: "Somaliland",
-        continent: "Africa",
+        admin: 'Somaliland',
+        name: 'Somaliland',
+        continent: 'Africa',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [48.938129510296491, 9.451748968946672],
@@ -10463,10 +10463,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Somalia", name: "Somalia", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Somalia', name: 'Somalia', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [49.72862, 11.5789],
@@ -10510,14 +10510,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Republic of Serbia",
-        name: "Serbia",
-        continent: "Europe",
+        admin: 'Republic of Serbia',
+        name: 'Serbia',
+        continent: 'Europe',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [20.874312778413408, 45.416375433934306],
@@ -10571,14 +10571,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Suriname",
-        name: "Suriname",
-        continent: "South America",
+        admin: 'Suriname',
+        name: 'Suriname',
+        continent: 'South America',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-57.147436489476874, 5.973149929219161],
@@ -10612,10 +10612,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Slovakia", name: "Slovakia", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Slovakia', name: 'Slovakia', continent: 'Europe' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [18.85314415861361, 49.496229763377634],
@@ -10656,10 +10656,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Slovenia", name: "Slovenia", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Slovenia', name: 'Slovenia', continent: 'Europe' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [13.806475457421524, 46.509306138691201],
@@ -10685,10 +10685,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Sweden", name: "Sweden", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Sweden', name: 'Sweden', continent: 'Europe' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [22.183173455501922, 65.723740546320158],
@@ -10736,14 +10736,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Swaziland",
-        name: "Swaziland",
-        continent: "Africa",
+        admin: 'Swaziland',
+        name: 'Swaziland',
+        continent: 'Africa',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [32.071665480281062, -26.733820082304902],
@@ -10762,10 +10762,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Syria", name: "Syria", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Syria', name: 'Syria', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [38.792340529136077, 33.378686428352218],
@@ -10800,10 +10800,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Chad", name: "Chad", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Chad', name: 'Chad', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [14.495787387762899, 12.859396267137353],
@@ -10869,10 +10869,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Togo", name: "Togo", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Togo', name: 'Togo', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [1.865240512712318, 6.14215770102973],
@@ -10899,10 +10899,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Thailand", name: "Thailand", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Thailand', name: 'Thailand', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [102.58493248902667, 12.186594956913279],
@@ -10974,14 +10974,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Tajikistan",
-        name: "Tajikistan",
-        continent: "Asia",
+        admin: 'Tajikistan',
+        name: 'Tajikistan',
+        continent: 'Asia',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [71.014198032520156, 40.244365546218226],
@@ -11030,14 +11030,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Turkmenistan",
-        name: "Turkmenistan",
-        continent: "Asia",
+        admin: 'Turkmenistan',
+        name: 'Turkmenistan',
+        continent: 'Asia',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [61.21081709172573, 35.650072333309218],
@@ -11099,14 +11099,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "East Timor",
-        name: "Timor-Leste",
-        continent: "Asia",
+        admin: 'East Timor',
+        name: 'Timor-Leste',
+        continent: 'Asia',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [124.96868248911619, -8.892790215697081],
@@ -11125,14 +11125,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Trinidad and Tobago",
-        name: "Trinidad and Tobago",
-        continent: "North America",
+        admin: 'Trinidad and Tobago',
+        name: 'Trinidad and Tobago',
+        continent: 'North America',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-61.68, 10.76],
@@ -11148,10 +11148,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Tunisia", name: "Tunisia", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Tunisia', name: 'Tunisia', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [9.482139926805273, 30.307556057246181],
@@ -11190,10 +11190,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Turkey", name: "Turkey", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Turkey', name: 'Turkey', continent: 'Asia' },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -11274,10 +11274,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Taiwan", name: "Taiwan", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Taiwan', name: 'Taiwan', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [121.777817824389899, 24.394273586519393],
@@ -11294,14 +11294,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "United Republic of Tanzania",
-        name: "Tanzania",
-        continent: "Africa",
+        admin: 'United Republic of Tanzania',
+        name: 'Tanzania',
+        continent: 'Africa',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [33.903711197104592, -0.95],
@@ -11358,10 +11358,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Uganda", name: "Uganda", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Uganda', name: 'Uganda', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [31.86617, -1.02736],
@@ -11396,10 +11396,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Ukraine", name: "Ukraine", continent: "Europe" },
+      type: 'Feature',
+      properties: { admin: 'Ukraine', name: 'Ukraine', continent: 'Europe' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [31.78599816257158, 52.10167796488544],
@@ -11505,14 +11505,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Uruguay",
-        name: "Uruguay",
-        continent: "South America",
+        admin: 'Uruguay',
+        name: 'Uruguay',
+        continent: 'South America',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-57.625133429582945, -30.216294854454258],
@@ -11541,14 +11541,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "United States of America",
-        name: "United States",
-        continent: "North America",
+        admin: 'United States of America',
+        name: 'United States',
+        continent: 'North America',
       },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -12038,14 +12038,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Uzbekistan",
-        name: "Uzbekistan",
-        continent: "Asia",
+        admin: 'Uzbekistan',
+        name: 'Uzbekistan',
+        continent: 'Asia',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [66.518606805288655, 37.362784328758785],
@@ -12107,14 +12107,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "Venezuela",
-        name: "Venezuela",
-        continent: "South America",
+        admin: 'Venezuela',
+        name: 'Venezuela',
+        continent: 'South America',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-71.331583624950284, 11.776284084515805],
@@ -12214,10 +12214,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Vietnam", name: "Vietnam", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Vietnam', name: 'Vietnam', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [108.050180291782908, 21.552379869060111],
@@ -12269,10 +12269,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Vanuatu", name: "Vanuatu", continent: "Oceania" },
+      type: 'Feature',
+      properties: { admin: 'Vanuatu', name: 'Vanuatu', continent: 'Oceania' },
       geometry: {
-        type: "MultiPolygon",
+        type: 'MultiPolygon',
         coordinates: [
           [
             [
@@ -12298,10 +12298,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Yemen", name: "Yemen", continent: "Asia" },
+      type: 'Feature',
+      properties: { admin: 'Yemen', name: 'Yemen', continent: 'Asia' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [53.108572625547502, 16.651051133688949],
@@ -12353,14 +12353,14 @@
       },
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        admin: "South Africa",
-        name: "South Africa",
-        continent: "Africa",
+        admin: 'South Africa',
+        name: 'South Africa',
+        continent: 'Africa',
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [31.521001417778869, -29.257386976846245],
@@ -12464,10 +12464,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Zambia", name: "Zambia", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Zambia', name: 'Zambia', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [32.759375441221316, -9.230599053589058],
@@ -12536,10 +12536,10 @@
       },
     },
     {
-      type: "Feature",
-      properties: { admin: "Zimbabwe", name: "Zimbabwe", continent: "Africa" },
+      type: 'Feature',
+      properties: { admin: 'Zimbabwe', name: 'Zimbabwe', continent: 'Africa' },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [31.191409132621278, -22.251509698172395],
