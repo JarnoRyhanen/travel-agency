@@ -18,18 +18,13 @@ export const getExistingUser = async (id: string) => {
 
 export const storeUserData = async () => {
   try {
-    console.log('Storing user data...');
     const user = await account.get();
-    console.log('Fetched user from account.get():', user);
     if (!user) throw new Error('User not found');
 
     const { providerAccessToken } = (await account.getSession('current')) || {};
-    console.log('Provider access token:', providerAccessToken);
     const profilePicture = providerAccessToken
       ? await getGooglePicture(providerAccessToken)
       : null;
-
-    console.log('Profile picture URL:', profilePicture);
 
     const createdUser = await database.createDocument(
       appwriteConfig.databaseId,
@@ -43,7 +38,6 @@ export const storeUserData = async () => {
         joinedAt: new Date().toISOString(),
       }
     );
-    console.log('Created user document:', createdUser);
 
     if (!createdUser.$id) redirect('/sign-in');
   } catch (error) {
@@ -105,5 +99,22 @@ export const getUser = async () => {
   } catch (error) {
     console.error('Error fetching user:', error);
     return null;
+  }
+};
+
+export const getAllUsers = async (limit: number, offset: number) => {
+  try {
+    const { documents: users, total } = await database.listDocuments(
+      appwriteConfig.databaseId,
+      appwriteConfig.userCollectionId,
+      [Query.limit(limit), Query.offset(offset)]
+    );
+
+    if (total === 0) return { users: [], total };
+
+    return { users, total };
+  } catch (e) {
+    console.log('Error fetching users');
+    return { users: [], total: 0 };
   }
 };

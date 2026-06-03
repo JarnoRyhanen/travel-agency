@@ -68,3 +68,33 @@ export const formatKey = (key: keyof TripFormData) => {
     .replace(/([A-Z])/g, ' $1')
     .replace(/^./, (str) => str.toUpperCase());
 };
+
+type GridUser = BaseUser & {
+  status: 'user' | 'admin';
+};
+
+export const normalizeUser = (
+  user: Record<string, unknown>,
+  index: number
+): GridUser => {
+  const joinedAt =
+    typeof user.joinedAt === 'string'
+      ? user.joinedAt
+      : typeof user.dateJoined === 'string'
+        ? user.dateJoined
+        : '';
+
+  return {
+    id:
+      typeof user.$id === 'string'
+        ? user.$id
+        : typeof user.id === 'string'
+          ? user.id
+          : String(index),
+    name: typeof user.name === 'string' ? user.name : 'Unknown user',
+    email: typeof user.email === 'string' ? user.email : '',
+    imageUrl: typeof user.imageUrl === 'string' ? user.imageUrl : '',
+    dateJoined: joinedAt ? formatDate(joinedAt) : '',
+    status: user.status === 'admin' ? 'admin' : 'user',
+  };
+};

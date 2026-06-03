@@ -17,11 +17,6 @@ export async function clientLoader() {
       return redirect('/');
     }
 
-    console.log(
-      existingUser?.$id
-        ? `User exists with ID: ${existingUser.$id}`
-        : 'No existing user found, creating new user.'
-    );
     return existingUser?.$id ? existingUser : await storeUserData();
   } catch (error) {
     console.error('Error in clientLoader:', error);
