@@ -13,9 +13,9 @@ import { world_map } from '~/constants/world_map';
 import { ButtonComponent } from '@syncfusion/ej2-react-buttons';
 import { account } from '~/appwrite/client';
 import { countries } from '~/constants/countries';
+import { useNavigate } from 'react-router';
 
 export const loader = async () => {
-  console.log('Countries from file: ' + JSON.stringify(countries));
   return countries.map((country: any) => ({
     name: country.flag.emoji + ' ' + country.names.common,
     coordinates: country.coordinates
@@ -38,6 +38,8 @@ const CreateTrip = ({ loaderData }: Route.ComponentProps) => {
   });
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+
+  const navigate = useNavigate();
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -69,10 +71,34 @@ const CreateTrip = ({ loaderData }: Route.ComponentProps) => {
     }
 
     try {
-      console.log(user);
-      console.log(formData);
-    } catch (error) {
-      console.error('Error creating trip:', error);
+      const response = await fetch('/api/create-trip', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          country: formData.country,
+          numberOfDays: formData.duration,
+          travelStyle: formData.travelStyle,
+          interests: formData.interest,
+          budget: formData.budget,
+          groupType: formData.groupType,
+          userId: user.$id,
+        }),
+      });
+      const result: CreateTripResponse = await response.json();
+      if (result?.id) navigate(`/trips/${result.id}`);
+      else console.error('Could not create trip');
+    } catch (error: any) {
+      if (error.status === 503) {
+        console.warn(
+          'AI service is currently unavailable. Please try again later.'
+        );
+        setError(
+          'AI service is currently unavailable. Please try again later.'
+        );
+        return;
+      } else {
+        console.error('Error creating trip:', error);
+      }
     } finally {
       setLoading(false);
     }

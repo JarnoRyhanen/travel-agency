@@ -11,12 +11,13 @@ export const formatDate = (dateString: string): string => {
 };
 
 export function parseMarkdownToJson(markdownText: string): unknown | null {
-  const regex = /```json\n([\s\S]+?)\n```/;
+  const regex = /```json\s*([\s\S]*?)\s*```/;
   const match = markdownText.match(regex);
 
   if (match && match[1]) {
     try {
-      return JSON.parse(match[1]);
+      const jsonString = match[1].trim();
+      return JSON.parse(jsonString);
     } catch (error) {
       console.error('Error parsing JSON:', error);
       return null;
