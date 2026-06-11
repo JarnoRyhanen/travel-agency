@@ -12,18 +12,17 @@ import {
 import { world_map } from '~/constants/world_map';
 import { ButtonComponent } from '@syncfusion/ej2-react-buttons';
 import { account } from '~/appwrite/client';
+import { countries } from '~/constants/countries';
 
 export const loader = async () => {
-  const response = await fetch(
-    'https://restcountries.com/v3.1/all?fields=name,flag,latlng,maps'
-  );
-  const data = await response.json();
-
-  return data.map((country: any) => ({
-    name: country.flag + ' ' + country.name.common,
-    coordinates: country.latlng,
-    value: country.name.common,
-    openStreetMap: country.maps?.openStreetMaps,
+  console.log('Countries from file: ' + JSON.stringify(countries));
+  return countries.map((country: any) => ({
+    name: country.flag.emoji + ' ' + country.names.common,
+    coordinates: country.coordinates
+      ? [country.coordinates.lat, country.coordinates.lng]
+      : [0, 0],
+    value: country.names.common,
+    openStreetMap: country.links?.open_street_maps || null,
   }));
 };
 
