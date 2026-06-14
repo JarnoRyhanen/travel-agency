@@ -10,20 +10,89 @@ export const formatDate = (dateString: string): string => {
   return dayjs(dateString).format('MMMM DD, YYYY');
 };
 
-export function parseMarkdownToJson(markdownText: string): unknown | null {
-  const regex = /```json\s*([\s\S]*?)\s*```/;
-  const match = markdownText.match(regex);
+const tryParseJson = (
+  value: string
+): { parsed: true; value: unknown } | { parsed: false } => {
+  try {
+    return { parsed: true, value: JSON.parse(value) };
+  } catch {
+    return { parsed: false };
+  }
+};
 
-  if (match && match[1]) {
-    try {
-      const jsonString = match[1].trim();
-      return JSON.parse(jsonString);
-    } catch (error) {
-      console.error('Error parsing JSON:', error);
-      return null;
+const extractJsonBlock = (text: string): string | null => {
+  const startIndex = text.search(/[\[{]/);
+
+  if (startIndex === -1) {
+    return null;
+  }
+
+  const opening = text[startIndex];
+  const closing = opening === '{' ? '}' : ']';
+  let depth = 0;
+  let inString = false;
+  let escaped = false;
+
+  for (let index = startIndex; index < text.length; index += 1) {
+    const char = text[index];
+
+    if (inString) {
+      if (escaped) {
+        escaped = false;
+      } else if (char === '\\') {
+        escaped = true;
+      } else if (char === '"') {
+        inString = false;
+      }
+      continue;
+    }
+
+    if (char === '"') {
+      inString = true;
+      continue;
+    }
+
+    if (char === opening) {
+      depth += 1;
+    } else if (char === closing) {
+      depth -= 1;
+
+      if (depth === 0) {
+        return text.slice(startIndex, index + 1);
+      }
     }
   }
-  console.error('No valid JSON found in markdown text.');
+
+  return null;
+};
+
+export function parseMarkdownToJson(markdownText: string): unknown | null {
+  const trimmedText = markdownText.trim();
+
+  const directJson = tryParseJson(trimmedText);
+  if (directJson.parsed) {
+    return directJson.value;
+  }
+
+  const fencedBlockMatch = trimmedText.match(
+    /```(?:json)?\s*([\s\S]*?)\s*```/i
+  );
+  if (fencedBlockMatch?.[1]) {
+    const parsedBlock = tryParseJson(fencedBlockMatch[1].trim());
+    if (parsedBlock.parsed) {
+      return parsedBlock.value;
+    }
+  }
+
+  const extractedJson = extractJsonBlock(trimmedText);
+  if (extractedJson) {
+    const parsedBlock = tryParseJson(extractedJson);
+    if (parsedBlock.parsed) {
+      return parsedBlock.value;
+    }
+  }
+
+  console.error('No valid JSON found in AI response.');
   return null;
 }
 
