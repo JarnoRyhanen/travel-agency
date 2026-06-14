@@ -3,6 +3,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 import { parseMarkdownToJson } from '~/lib/utils';
 import { appwriteConfig, database } from '~/appwrite/client';
 import { ID } from 'appwrite';
+import { getExistingUser } from '~/appwrite/auth';
 
 export const action = async ({ request }: ActionFunctionArgs) => {
   const {
@@ -81,6 +82,7 @@ export const action = async ({ request }: ActionFunctionArgs) => {
       (await imageResponse.json()).results
         .slice(0, 3)
         .map((result: any) => result.urls?.regular) || null;
+
     const result = await database.createDocument(
       appwriteConfig.databaseId,
       appwriteConfig.tripCollectionId,
@@ -90,6 +92,21 @@ export const action = async ({ request }: ActionFunctionArgs) => {
         createdAt: new Date().toISOString(),
         imageUrls,
         userId,
+      }
+    );
+
+    const userDocument = await getExistingUser(userId);
+
+    if (!userDocument?.$id) {
+      throw new Error('User document not found');
+    }
+
+    await database.updateDocument(
+      appwriteConfig.databaseId,
+      appwriteConfig.userCollectionId,
+      userDocument.$id,
+      {
+        tripsCreated: (userDocument.tripsCreated ?? 0) + 1,
       }
     );
 
