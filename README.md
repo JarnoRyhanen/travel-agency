@@ -28,15 +28,14 @@ dashboard and trip detail pages.
 
 Place finished images in `docs/screenshots/`.
 
-| Page            | Placeholder                                                | Notes                            |
+| Page            | Images                                                     | Notes                            |
 | --------------- | ---------------------------------------------------------- | -------------------------------- |
-| Public home     | `![Public home](docs/screenshots/public-home.png)`         | Landing / entry page             |
-| Sign in         | `![Sign in](docs/screenshots/sign-in.png)`                 | Google authentication screen     |
-| Admin dashboard | `![Admin dashboard](docs/screenshots/admin-dashboard.png)` | KPIs, charts, and summaries      |
-| Trips list      | `![Trips list](docs/screenshots/trips-list.png)`           | Paginated trip catalog           |
-| Trip details    | `![Trip details](docs/screenshots/trip-details.png)`       | Full itinerary and trip metadata |
-| Create trip     | `![Create trip](docs/screenshots/create-trip.png)`         | AI trip generation form          |
-| All users       | `![All users](docs/screenshots/all-users.png)`             | User table and status view       |
+| Sign in         | ![Sign in](docs/screenshots/sign-in.png)                 | Google authentication screen     |
+| Admin dashboard | ![Admin dashboard](/docs/screenshots/admin-dashboard.png) | KPIs, charts, and summaries      |
+| Trips list      | ![Trips list](/docs/screenshots/trips-list.png)           | Paginated trip catalog           |
+| Trip details    | ![Trip details](/docs/screenshots/trip-details.png)       | Full itinerary and trip metadata |
+| Create trip     | ![Create trip](/docs/screenshots/create-trip.png)         | AI trip generation form          |
+| All users       | ![All users](/docs/screenshots/all-users.png)             | User table and status view       |
 
 ## Routes
 
