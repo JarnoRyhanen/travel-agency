@@ -26,8 +26,6 @@ dashboard and trip detail pages.
 
 ## Screenshots
 
-Place finished images in `docs/screenshots/`.
-
 | Page            | Images                                                     | Notes                            |
 | --------------- | ---------------------------------------------------------- | -------------------------------- |
 | Sign in         | ![Sign in](docs/screenshots/sign-in.png)                 | Google authentication screen     |
