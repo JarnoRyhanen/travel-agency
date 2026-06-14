@@ -1,165 +1,175 @@
-# Tourvisto - Travel Agency Platform
+# Tourvisto
 
-A modern, full-stack travel agency management application built with React Router, TypeScript, and Appwrite. Tourvisto
-provides a comprehensive platform for managing trips, users, and travel analytics.
+Tourvisto is a travel agency management platform built with React Router, TypeScript, Appwrite, and Syncfusion UI
+components. It combines AI trip generation, trip browsing, user management, and admin analytics in one application.
+
+## Overview
+
+The app supports two main experiences:
+
+- **Admin flow** for creating trips, reviewing trip data, and managing users
+
+Trip content is generated through Google Gemini, stored in Appwrite, and parsed back into structured trip data for the
+dashboard and trip detail pages.
 
 ## Features
 
-- 🌍 Interactive world map with Syncfusion Maps
-- 👥 User management and authentication with Appwrite
-- 📊 Advanced dashboard with real-time analytics and charts
-- 🧳 Trip management and browsing
-- 📱 Responsive design with Tailwind CSS
-- 🔒 TypeScript for type safety
-- 🚀 Server-side rendering with React Router 7
-- ⚡️ Hot Module Replacement (HMR) for development
-- 🔍 Admin panel with user management
-- 📈 Data visualization with Syncfusion Charts
+- Google sign-in via Appwrite
+- AI-powered trip generation with Gemini
+- Trip persistence in Appwrite documents
+- Trip detail view with itinerary, weather, and pricing
+- Trips list with pagination
+- Admin dashboard with charts and summary cards
+- User management grid with status badges and avatars
+- Responsive layout with Tailwind CSS
+- Syncfusion maps, charts, grids, dropdowns, and paging
 
-## Project Structure
+## Screenshots
 
-```
+Place finished images in `docs/screenshots/`.
+
+| Page            | Placeholder                                                | Notes                            |
+| --------------- | ---------------------------------------------------------- | -------------------------------- |
+| Public home     | `![Public home](docs/screenshots/public-home.png)`         | Landing / entry page             |
+| Sign in         | `![Sign in](docs/screenshots/sign-in.png)`                 | Google authentication screen     |
+| Admin dashboard | `![Admin dashboard](docs/screenshots/admin-dashboard.png)` | KPIs, charts, and summaries      |
+| Trips list      | `![Trips list](docs/screenshots/trips-list.png)`           | Paginated trip catalog           |
+| Trip details    | `![Trip details](docs/screenshots/trip-details.png)`       | Full itinerary and trip metadata |
+| Create trip     | `![Create trip](docs/screenshots/create-trip.png)`         | AI trip generation form          |
+| All users       | `![All users](docs/screenshots/all-users.png)`             | User table and status view       |
+
+## Routes
+
+| Route            | Purpose                        |
+| ---------------- | ------------------------------ |
+| `/`              | Public travel page             |
+| `/sign-in`       | Google sign-in                 |
+| `/dashboard`     | Admin analytics dashboard      |
+| `/all-users`     | User management table          |
+| `/trips`         | Generated trips list           |
+| `/trips/create`  | Create a new AI-generated trip |
+| `/trips/:tripId` | Trip detail view               |
+
+## How it works
+
+### Authentication
+
+Users sign in with Google through Appwrite. Protected admin routes redirect unauthenticated users back to `/sign-in`.
+
+### Trip generation
+
+Submitting the create-trip form sends the request payload to `/api/create-trip`. The server:
+
+1. Sends a prompt to Gemini
+2. Parses the response into JSON
+3. Fetches related trip images from Unsplash
+4. Stores the trip document in Appwrite
+5. Increments the creator's `tripsCreated` counter
+
+### Trip display
+
+Trip details are stored as JSON strings and parsed back into typed trip objects when rendering the dashboard, list, and
+detail pages.
+
+### Analytics
+
+The dashboard aggregates user and trip data from Appwrite to show totals, growth, and travel-style breakdowns.
+
+## Tech stack
+
+- React 19
+- React Router 7
+- TypeScript 5
+- Appwrite
+- Tailwind CSS 4
+- Syncfusion EJ2
+- Vite
+- Gemini API
+- Unsplash API
+
+## Project structure
+
+```text
 travel-agency/
 ├── app/
-│   ├── routes/
-│   │   ├── admin/          # Admin dashboard and management pages
-│   │   └── root/           # Authentication and root routes
-│   ├── components/         # Reusable React components
-│   ├── appwrite/           # Appwrite client and auth configuration
-│   ├── lib/                # Utility functions
-│   ├── constants/          # App constants and world map data
-│   └── root.tsx            # Root layout component
-├── components/             # Shared UI components (Header, NavItems, etc.)
+│   ├── appwrite/           # Appwrite client, auth, dashboard, and trip helpers
+│   ├── components/         # Shared application components
+│   ├── constants/          # Static content, map data, and UI config
+│   ├── lib/                # Utility helpers and parsers
+│   └── routes/             # React Router route modules
+├── components/             # Shared layout/navigation components
 ├── public/                 # Static assets
-└── Dockerfile              # Docker configuration for deployment
+├── build/                  # Production output
+└── Dockerfile              # Container image definition
 ```
 
-## Getting Started
+## Setup
 
-### Installation
-
-Install the dependencies:
+### 1. Install dependencies
 
 ```bash
 npm install
 ```
 
-### Configuration
+### 2. Configure environment variables
 
-Create a `.env.local` file with your Appwrite credentials:
+Create a `.env.local` file:
 
 ```env
 VITE_APPWRITE_ENDPOINT=your_appwrite_endpoint
-VITE_APPWRITE_PROJECT_ID=your_project_id
-VITE_SYNCFUSION_LICENSE_KEY=your_syncfusion_key
+VITE_APPWRITE_PROJECT_ID=your_appwrite_project_id
+VITE_SYNCFUSION_LICENSE_KEY=your_syncfusion_license_key
+GEMINI_API_KEY=your_gemini_api_key
+UNSPLASH_ACCESS_KEY=your_unsplash_access_key
 ```
 
-### Development
-
-Start the development server with HMR:
+### 3. Start the app
 
 ```bash
 npm run dev
 ```
 
-Your application will be available at `http://localhost:5173`.
+The app runs at `http://localhost:5173`.
 
-### Available Scripts
+## Scripts
 
-- `npm run build` - Create a production build
-- `npm run start` - Start the production server
-- `npm run typecheck` - Run TypeScript type checking
-- `npm run lint` - Run ESLint to check code quality
-- `npm run lint:fix` - Automatically fix linting issues
-- `npm run format` - Format code with Prettier
+- `npm run dev` - start the development server
+- `npm run build` - create a production build
+- `npm run start` - run the production server
+- `npm run typecheck` - generate router types and run TypeScript checks
+- `npm run lint` - run ESLint
+- `npm run lint:fix` - auto-fix lint issues
+- `npm run format` - format the codebase with Prettier
 
-## Tech Stack
+## Data flow
 
-### Frontend
+### User records
 
-- **React 19** - UI library
-- **React Router 7** - Full-stack routing framework
-- **TypeScript 5** - Type-safe JavaScript
-- **Tailwind CSS 4** - Utility-first CSS framework
-- **Syncfusion EJ2** - Enterprise UI components (Maps, Charts, Grids, Dropdowns)
+User profile documents are stored in Appwrite with fields such as:
 
-### Backend & Services
+- `accountId`
+- `name`
+- `email`
+- `imageUrl`
+- `joinedAt`
+- `tripsCreated`
 
-- **React Router Node** - Full-stack server
-- **Appwrite** - Backend-as-a-service for authentication and data management
-- **Sentry** - Error tracking and performance monitoring
+### Trip records
 
-### Development Tools
+Trip documents store:
 
-- **Vite** - Lightning-fast build tool
-- **ESLint** - Code linting
-- **Prettier** - Code formatting
+- `tripDetail`
+- `createdAt`
+- `imageUrls`
+- `userId`
 
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
+`tripDetail` is the JSON-serialized trip payload generated by the AI service.
 
 ## Deployment
 
-### Docker Deployment
-
-To build and run using Docker:
+### Docker
 
 ```bash
 docker build -t tourvisto .
-
-# Run the container
 docker run -p 3000:3000 tourvisto
 ```
-
-The containerized application can be deployed to any platform that supports Docker:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### Environment Variables
-
-Ensure the following environment variables are set in production:
-
-```env
-VITE_APPWRITE_ENDPOINT
-VITE_APPWRITE_PROJECT_ID
-VITE_SYNCFUSION_LICENSE_KEY
-```
-
-## Key Features
-
-### Admin Dashboard
-
-- User management and analytics
-- Trip overview and statistics
-- Real-time data visualization
-- System monitoring
-
-### Trip Management
-
-- Browse and manage travel packages
-- Interactive world map for destinations
-- Trip details and booking information
-
-### Authentication
-
-- Secure user authentication via Appwrite
-- Session management
-- Protected routes and admin access
-
-## License
-
-This project is private and not licensed for distribution.
-
----
-
-Built with ❤️ using React Router, TypeScript, and Appwrite.
